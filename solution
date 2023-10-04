@@ -1,0 +1,6 @@
+# solution
+principle_amount, interest_rate, time = map(float, input().split())
+
+simple_interest = (principle_amount * interest_rate * time) / 100
+
+print("{:.2f}".format(simple_interest))
